@@ -1,0 +1,104 @@
+
+// Mobile
+#hero {
+    height: 200px;
+  
+  }
+
+#videoreel{
+    height: 150px;
+}
+
+
+.box2 {
+    background-color: rgb(156, 151, 151);
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+
+  #contact_about_port{
+    height: 340px; 
+}
+
+
+
+// Tablet
+@media screen and (min-width: 768px) {
+    #hero {
+      height: 450px;
+    
+    }
+
+    #videoreel{
+        height: 400px;
+    }
+    
+
+    #portifolio_content1{
+        height: 350px; 
+    }
+
+    #portifolio_content2{
+        height: 350px; 
+    }
+
+    #portifolio_content3{
+        height: 350px; 
+    }
+
+    #portifolio_content4{
+        height: 350px; 
+    }
+
+    #contact_me{
+        height: 300px; 
+    }
+
+    #footer_menu{
+        height: 150px; 
+    }
+
+
+    #case_study_1{
+        height: 400px;
+    }
+    
+
+    #p_case_study_content1{
+        height: 350px; 
+    }
+
+    #p_case_study_content2{
+        height: 350px; 
+    }
+
+    #p_case_study_content3{
+        height: 350px; 
+    }
+
+    #p_case_study_content4{
+        height: 350px; 
+    }
+
+    #info{
+        height: 300px;       
+    }
+
+
+    #contact_about_port{
+        height: 540px; 
+    }
+    
+    #footer_test{
+        height: 400px; 
+    }
+
+
+  }
+
+

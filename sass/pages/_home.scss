@@ -1,0 +1,83 @@
+@use '../abstracts' as ab;
+
+
+body {
+    background-color:ab.$secondary-color;
+}
+
+#box_a {
+    background-color: blue;
+}
+
+
+
+/* 10. ---Tablet Sized Screens--- */
+
+@media screen and (min-width: 768px) {
+
+    #sticky-nav-con {
+       position: sticky;
+       top: 0rem;
+       background-color: #fff;
+       border-bottom: solid 0.0625rem #c3c3c3;
+       z-index: 1;
+    }
+ 
+
+ 
+    #button {
+       display: none;
+    }
+ 
+    #burger-con {
+       display: block;
+       font-size: 0.75rem;
+    }
+ 
+    #burger-con ul li, #burger-con ul li:first-child {
+       border: none;
+       display: inline;
+    }
+ 
+    #main-nav ul li a {
+       display: inline;
+    }
+ 
+    #burger-con ul li {
+       margin-right: 0.625rem;
+    }
+ 
+    #burger-con ul li:last-child {
+       margin-right: 0rem;
+    }
+ 
+    #main-nav {
+       border-left: 0.125rem solid #707070;
+       padding-left: 1.875rem;
+       margin-top: 4%;
+       margin-bottom: 4%;
+    }
+
+    #main-header {
+      height: 6.875rem;
+   }
+
+   #main-nav {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 1.5625rem;
+   }
+
+   #burger-con ul li {
+      margin-right: 1.5625rem;
+   }
+
+   #burger-con {
+      font-size: 1rem;
+      margin-top: 1.75rem;
+   }
+
+}
+
+
+

@@ -1,0 +1,17 @@
+
+
+$imagesPath :"/images/";
+.hero {
+
+    background: url(#{$imagesPath}/hero_bcg.jpg);
+    opacity: 10%;
+    background-color: #20232F;
+    height: 575px;
+    margin: 0 auto;
+    width: 100%; 
+  }
+
+
+
+
+
