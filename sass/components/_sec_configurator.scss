@@ -1,0 +1,19 @@
+#prod_configurator {
+
+    background-color: #efeeee;
+    height: 350px;
+    margin-top: 0%;
+} 
+
+
+@media screen and (min-width: 768px) {
+
+    #prod_configurator {
+
+        background-color: #dddddd;
+        height: 450px;
+        margin-top: 0%;
+    } 
+    
+
+}
