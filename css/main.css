@@ -6,20 +6,26 @@
   display: block;
 }
 
-#burger-con {
-  margin-top: 20px;
+#button {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   #sticky-nav-con {
     position: sticky;
     top: 0rem;
-    background-color: #20232F;
+    background-color: #424242;
     z-index: 1;
+  }
+  #burger-con {
+    font-size: 1.2rem;
+    margin-top: 1.75rem;
   }
   #main-nav {
     display: block;
-    margin-top: 80px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1.5625rem;
   }
   #main-nav-m {
     display: none;
@@ -30,16 +36,17 @@
     margin: 0;
   }
   #main-nav ul li a {
-    display: block;
+    display: inline;
     padding: 0.625rem 0 0.625rem 0;
     text-align: right;
     color: #626262;
   }
   #main-nav ul li a:hover {
-    color: #2BD5D4;
+    color: #70fdfd;
   }
   #main-nav ul li {
     border-bottom: 0.0625rem solid #efefef;
+    margin-right: 0.625rem;
   }
   #main-nav ul li:first-child {
     border-top: 0.0625rem solid #efefef;
@@ -47,22 +54,14 @@
   #main-nav ul li:last-child {
     margin-bottom: 0.625rem;
   }
+  #burger-con ul li, #burger-con ul li:first-child {
+    border: none;
+    display: inline;
+  }
+  #burger-con ul li:last-child {
+    margin-right: 0rem;
+  }
 }
-.hero {
-  background: url(/images//hero_bcg.jpg);
-  opacity: 10%;
-  background-color: #20232F;
-  height: 575px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.portifolio {
-  background-color: #c7c5c5;
-  height: 950px;
-  margin-top: 0%;
-}
-
 #aboutme {
   height: 350px;
 }
@@ -79,9 +78,31 @@
   margin: 0;
 }
 
+.hero {
+  background: url(/images//hero_bcg.jpg);
+  opacity: 10%;
+  background-color: #20232F;
+  height: 575px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.portifolio {
+  background-color: #c7c5c5;
+  height: 950px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .portifolio {
+    background-color: #c7c5c5;
+    height: 950px;
+    margin-top: 0%;
+  }
+}
 #logo {
   max-width: 13rem;
-  margin-top: 1rem;
+  margin-top: 1.75rem;
   margin-bottom: 1rem;
 }
 
@@ -90,7 +111,7 @@
     visibility: visible;
     max-width: 15rem;
     width: 13rem;
-    margin-top: 1rem;
+    margin-top: 1.75rem;
     margin-bottom: 1rem;
   }
 }
@@ -166,62 +187,88 @@
     height: 400px;
   }
 }
+#earb_noise {
+  background-color: #c7c5c5;
+  height: 550px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #earb_noise {
+    background-color: #c7c5c5;
+    height: 650px;
+    margin-top: 0%;
+  }
+}
+#before_after {
+  background-color: #c7c5c5;
+  height: 350px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #before_after {
+    background-color: #c7c5c5;
+    height: 450px;
+    margin-top: 0%;
+  }
+}
+#prod_configurator {
+  background-color: #efeeee;
+  height: 350px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #prod_configurator {
+    background-color: #dddddd;
+    height: 450px;
+    margin-top: 0%;
+  }
+}
+#battery {
+  background-color: #e8e8e8;
+  height: 550px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #battery {
+    background-color: #e8e8e8;
+    height: 550px;
+    margin-top: 0%;
+  }
+}
+#call_toact {
+  background-color: #c7c5c5;
+  height: 300px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #call_toact {
+    background-color: #c7c5c5;
+    height: 400px;
+    margin-top: 0%;
+  }
+}
+#anim_trigger {
+  background-color: #f8f8f8;
+  height: 325px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #anim_trigger {
+    background-color: #ededed;
+    height: 425px;
+    margin-top: 0%;
+  }
+}
 body {
-  background-color: #20232F;
+  background-color: #424242;
 }
 
 #box_a {
   background-color: blue;
-}
-
-/* 10. ---Tablet Sized Screens--- */
-@media screen and (min-width: 768px) {
-  #sticky-nav-con {
-    position: sticky;
-    top: 0rem;
-    background-color: #fff;
-    border-bottom: solid 0.0625rem #c3c3c3;
-    z-index: 1;
-  }
-  #button {
-    display: none;
-  }
-  #burger-con {
-    display: block;
-    font-size: 0.75rem;
-  }
-  #burger-con ul li, #burger-con ul li:first-child {
-    border: none;
-    display: inline;
-  }
-  #main-nav ul li a {
-    display: inline;
-  }
-  #burger-con ul li {
-    margin-right: 0.625rem;
-  }
-  #burger-con ul li:last-child {
-    margin-right: 0rem;
-  }
-  #main-nav {
-    border-left: 0.125rem solid #707070;
-    padding-left: 1.875rem;
-    margin-top: 4%;
-    margin-bottom: 4%;
-  }
-  #main-header {
-    height: 6.875rem;
-  }
-  #main-nav {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 1.5625rem;
-  }
-  #burger-con ul li {
-    margin-right: 1.5625rem;
-  }
-  #burger-con {
-    font-size: 1rem;
-    margin-top: 1.75rem;
-  }
 }
