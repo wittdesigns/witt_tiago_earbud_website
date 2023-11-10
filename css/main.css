@@ -213,6 +213,50 @@
     margin-top: 0%;
   }
 }
+#outerShell {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  #mobile-tablet-view {
+    display: none;
+  }
+  #outerShell {
+    max-width: 1200px;
+    border: solid 1px #666;
+    display: block;
+  }
+  #imageCon {
+    position: relative;
+    max-width: 1200px;
+    height: 675px;
+  }
+  .slideImage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 675px;
+  }
+  .image-right {
+    background: url(../images/earbud-x-ray.png) no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  .image-left {
+    background: url(../images/earbud.png) no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    width: 50%;
+    background-attachment: fixed;
+  }
+  .image-drag {
+    background-color: #07f178;
+    left: 50%;
+    width: 10px;
+    cursor: pointer;
+  }
+}
 #prod_configurator {
   background-color: #efeeee;
   height: 350px;
@@ -271,4 +315,4 @@ body {
 
 #box_a {
   background-color: blue;
-}
+}/*# sourceMappingURL=main.css.map */
