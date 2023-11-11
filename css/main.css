@@ -1,205 +1,22 @@
-#main-nav {
-  display: none;
+p {
+  color: #fff;
+  font-size: 34px;
+  line-height: 44px;
 }
 
-#main-nav-m {
-  display: block;
+body {
+  background: #000;
 }
 
-#button {
-  display: none;
+#explode-view {
+  max-width: 100%;
+  /* width: 100vw; */
 }
 
-@media screen and (min-width: 768px) {
-  #sticky-nav-con {
-    position: sticky;
-    top: 0rem;
-    background-color: #424242;
-    z-index: 1;
-  }
-  #burger-con {
-    font-size: 1.2rem;
-    margin-top: 1.75rem;
-  }
-  #main-nav {
-    display: block;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 1.5625rem;
-  }
-  #main-nav-m {
-    display: none;
-  }
-  #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  #main-nav ul li a {
-    display: inline;
-    padding: 0.625rem 0 0.625rem 0;
-    text-align: right;
-    color: #626262;
-  }
-  #main-nav ul li a:hover {
-    color: #70fdfd;
-  }
-  #main-nav ul li {
-    border-bottom: 0.0625rem solid #efefef;
-    margin-right: 0.625rem;
-  }
-  #main-nav ul li:first-child {
-    border-top: 0.0625rem solid #efefef;
-  }
-  #main-nav ul li:last-child {
-    margin-bottom: 0.625rem;
-  }
-  #burger-con ul li, #burger-con ul li:first-child {
-    border: none;
-    display: inline;
-  }
-  #burger-con ul li:last-child {
-    margin-right: 0rem;
-  }
-}
-#aboutme {
-  height: 350px;
-}
-
-#contact_about h2 {
-  display: inline-block;
-}
-
-#footer_test {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 350px;
-  margin: 0;
-}
-
-.hero {
-  background: url(/images//hero_bcg.jpg);
-  opacity: 10%;
-  background-color: #20232F;
-  height: 575px;
+#animmodel {
   margin: 0 auto;
-  width: 100%;
 }
 
-.portifolio {
-  background-color: #c7c5c5;
-  height: 950px;
-  margin-top: 0%;
-}
-
-@media screen and (min-width: 768px) {
-  .portifolio {
-    background-color: #c7c5c5;
-    height: 950px;
-    margin-top: 0%;
-  }
-}
-#logo {
-  max-width: 13rem;
-  margin-top: 1.75rem;
-  margin-bottom: 1rem;
-}
-
-@media screen and (min-width: 768px) {
-  #logo {
-    visibility: visible;
-    max-width: 15rem;
-    width: 13rem;
-    margin-top: 1.75rem;
-    margin-bottom: 1rem;
-  }
-}
-#hero {
-  height: 200px;
-}
-
-#videoreel {
-  height: 150px;
-}
-
-.box2 {
-  background-color: rgb(156, 151, 151);
-  color: rgb(27, 27, 27);
-  border-radius: 5px;
-  padding: 20px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#contact_about_port {
-  height: 340px;
-}
-
-@media screen and (min-width: 768px) {
-  #hero {
-    height: 450px;
-  }
-  #videoreel {
-    height: 400px;
-  }
-  #portifolio_content1 {
-    height: 350px;
-  }
-  #portifolio_content2 {
-    height: 350px;
-  }
-  #portifolio_content3 {
-    height: 350px;
-  }
-  #portifolio_content4 {
-    height: 350px;
-  }
-  #contact_me {
-    height: 300px;
-  }
-  #footer_menu {
-    height: 150px;
-  }
-  #case_study_1 {
-    height: 400px;
-  }
-  #p_case_study_content1 {
-    height: 350px;
-  }
-  #p_case_study_content2 {
-    height: 350px;
-  }
-  #p_case_study_content3 {
-    height: 350px;
-  }
-  #p_case_study_content4 {
-    height: 350px;
-  }
-  #info {
-    height: 300px;
-  }
-  #contact_about_port {
-    height: 540px;
-  }
-  #footer_test {
-    height: 400px;
-  }
-}
-#earb_noise {
-  background-color: #c7c5c5;
-  height: 550px;
-  margin-top: 0%;
-}
-
-@media screen and (min-width: 768px) {
-  #earb_noise {
-    background-color: #c7c5c5;
-    height: 650px;
-    margin-top: 0%;
-  }
-}
 #before_after {
   background-color: #c7c5c5;
   height: 350px;
@@ -394,6 +211,98 @@ model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
 
+#main-nav {
+  display: none;
+}
+
+#main-nav-m {
+  display: block;
+}
+
+#button {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #sticky-nav-con {
+    position: sticky;
+    top: 0rem;
+    background-color: #424242;
+    z-index: 1;
+  }
+  #burger-con {
+    font-size: 1.2rem;
+    margin-top: 1.75rem;
+  }
+  #main-nav {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1.5625rem;
+  }
+  #main-nav-m {
+    display: none;
+  }
+  #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #main-nav ul li a {
+    display: inline;
+    padding: 0.625rem 0 0.625rem 0;
+    text-align: right;
+    color: #626262;
+  }
+  #main-nav ul li a:hover {
+    color: #70fdfd;
+  }
+  #main-nav ul li {
+    border-bottom: 0.0625rem solid #efefef;
+    margin-right: 0.625rem;
+  }
+  #main-nav ul li:first-child {
+    border-top: 0.0625rem solid #efefef;
+  }
+  #main-nav ul li:last-child {
+    margin-bottom: 0.625rem;
+  }
+  #burger-con ul li, #burger-con ul li:first-child {
+    border: none;
+    display: inline;
+  }
+  #burger-con ul li:last-child {
+    margin-right: 0rem;
+  }
+}
+#logo {
+  max-width: 13rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #logo {
+    visibility: visible;
+    max-width: 15rem;
+    width: 13rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+  }
+}
+#earb_noise {
+  background-color: #c7c5c5;
+  height: 550px;
+  margin-top: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  #earb_noise {
+    background-color: #c7c5c5;
+    height: 650px;
+    margin-top: 0%;
+  }
+}
 #battery {
   background-color: #e8e8e8;
   height: 550px;
@@ -407,6 +316,22 @@ model-viewer > #ar-prompt > img {
     margin-top: 0%;
   }
 }
+#aboutme {
+  height: 350px;
+}
+
+#contact_about h2 {
+  display: inline-block;
+}
+
+#footer_test {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 350px;
+  margin: 0;
+}
+
 #call_toact {
   background-color: #c7c5c5;
   height: 300px;
@@ -419,29 +344,4 @@ model-viewer > #ar-prompt > img {
     height: 400px;
     margin-top: 0%;
   }
-}
-#anim_trigger {
-  background-color: #f8f8f8;
-  height: 325px;
-  margin-top: 0%;
-}
-
-@media screen and (min-width: 768px) {
-  #anim_trigger {
-    background-color: #ededed;
-    height: 425px;
-    margin-top: 0%;
-  }
-}
-#explode-view {
-  max-width: 100%;
-  /* width: 100vw; */
-}
-
-body {
-  background-color: #424242;
-}
-
-#box_a {
-  background-color: blue;
 }/*# sourceMappingURL=main.css.map */
