@@ -1,13 +1,12 @@
 // Import variables from the main variables partial
+@forward 'earbuds';
+@forward 'xray';
+@forward 'slider';
 @forward 'header';
-@forward 'footer';
-@forward 'hero';
-@forward 'portifolio';
 @forward 'logo';
-@forward 'boxeslayout';
-@forward 'secnoise.scss';
-@forward 'xray.scss';
-@forward 'sec_configurator.scss';
-@forward 'sec_battery.scss';
-@forward 'sec_call.scss';
-@forward 'sec_anim_trigger.scss';
+
+@forward 'noise';
+@forward 'battery';
+@forward 'footer';
+
+@forward 'call';
