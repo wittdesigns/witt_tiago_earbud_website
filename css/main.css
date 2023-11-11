@@ -40,7 +40,6 @@ body {
   }
   #outerShell {
     max-width: 1200px;
-    border: solid 1px #666;
     display: block;
   }
   #imageCon {
@@ -56,22 +55,25 @@ body {
   }
   .image-right {
     background: url(../images/earbud-x-ray.png) no-repeat;
-    background-size: 80%;
-    background-position: center center;
-    background-attachment: fixed;
+    background-size: 1200px 675px;
   }
   .image-left {
     background: url(../images/earbud.png) no-repeat;
-    background-size: 80%;
-    background-position: center center;
+    background-size: 1200px 675px;
     width: 50%;
-    background-attachment: fixed;
   }
   .image-drag {
-    background-color: #07f178;
-    left: 50%;
-    width: 10px;
+    height: 40px;
+    width: 40px;
+    background: url("/images/slider-icon.svg") no-repeat;
+    color: aqua;
+    border: 3px solid #ffffff;
+    border-radius: 30%;
+    position: absolute;
     cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 #prod_configurator {
@@ -225,7 +227,7 @@ model-viewer > #ar-prompt > img {
 
 @media screen and (min-width: 768px) {
   #sticky-nav-con {
-    position: sticky;
+    position: relative;
     top: 0rem;
     background-color: #424242;
     z-index: 1;
@@ -275,10 +277,19 @@ model-viewer > #ar-prompt > img {
     margin-right: 0rem;
   }
 }
+#textcandy, #textlls, #textsku {
+  color: aqua;
+}
+
+#skullhead {
+  background-color: aqua;
+}
+
 #logo {
   max-width: 13rem;
   margin-top: 1.75rem;
   margin-bottom: 1rem;
+  color: aqua;
 }
 
 @media screen and (min-width: 768px) {

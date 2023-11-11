@@ -1,11 +1,24 @@
 @use '../abstracts' as ab;
 
 
+#textcandy, #textlls, #textsku {
+  color: aqua;
+
+}
+
+
+#skullhead {
+  background-color: aqua;
+}
+
 
 #logo {
     max-width: 13rem;
       margin-top: 1.75rem;
     margin-bottom: 1rem;
+    color: aqua;
+
+
 
  }
 
