@@ -20,8 +20,6 @@
 }
 
 
-
-
 #outerShell {
     display: none;
 }
@@ -34,10 +32,9 @@
     }
 
 
-
     #outerShell {
         max-width: 1200px;
-        border: solid 1px #666;
+        // border: solid 1px #666;
         display: block;
     }
     
@@ -56,25 +53,34 @@
     
     .image-right {
         background: url(../images/earbud-x-ray.png) no-repeat;
-        background-size: 80%;
-        background-position: center center;
-        background-attachment: fixed;
+        background-size: 1200px 675px;
+
     }
     
     .image-left {
         background: url(../images/earbud.png) no-repeat;
-        background-size: 80%;
-        background-position: center center;
+        background-size: 1200px 675px;
         width: 50%;
-        background-attachment: fixed;
+
     }
     
+  
     .image-drag {
-        background-color: #07f178;
-        left: 50%;
-        width: 10px;
+        height: 40px;
+        width: 40px;
+        background: url("/images/slider-icon.svg") no-repeat;
+        color: aqua;
+        border: 3px solid #ffffff;
+        border-radius: 30%;
+        position: absolute;
         cursor: pointer;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    
+
+
+
 }
+
 
