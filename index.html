@@ -20,7 +20,7 @@
     <div id="sticky-nav-con">
     <header class="grid-con" id="main-header">
 
-        <div class="col-span-full m-col-start-2 m-col-end-3">
+        <div class="col-span-full m-col-start-1 m-col-end-3">
             <a href="#"> <img src="images/logo.svg" id="logo" alt="SkullCandy Logo"></a>
         </div>
 
@@ -43,11 +43,16 @@
 </div>
 
 
-    <section class="grid-con" id="hero_anim">
-       <div id="anim_trigger" class="box col-span-full m-col-start-2 m-col-end-12">
-        <h2>Animation Trigger by Scroll Will Start Here</h2>
-       </div>
-    </section>
+    <div class="col-span-full">
+        <canvas id="explode-view"></canvas> 
+    </div>
+
+
+
+
+
+
+
 
 
     <div class="grid-con"  id="bef_and_after">
@@ -82,7 +87,7 @@
 
   
     <section class="grid-con" id="battery_info">
-        <div id="battery" class="box col-span-full m-col-start-2 m-col-end-12">
+        <div id="battery" class="box col-span-full m-col-start-1 m-col-end-13">
             <h2>Battery Information (Duration and Recharge Speed)</h2>
         </div>
 
@@ -91,7 +96,7 @@
      </section>
 
      <section class="grid-con" id="noisered">
-        <div id="earb_noise" class="box col-span-full m-col-start-2 m-col-end-12">
+        <div id="earb_noise" class="box col-span-full m-col-start-1 m-col-end-13">
             <h2>Noise Reduction</h2>
         </div>
 
@@ -103,10 +108,59 @@
 
 
      <section class="grid-con" id="prod_config">
-        <div id="prod_configurator" class="box col-span-full m-col-start-2 m-col-end-12">
+        <div id="prod_configurator" class="box col-span-full m-col-start-1 m-col-end-13">
          <h2>Product Configurator Will go Here</h2>
         </div>
      </section>
+
+
+
+<section id="earbud-viewer">
+    <h2 class="hidden">Model Viewer</h2>
+     <model-viewer id="model" src="model/ear_bud.glb" ar ar-modes="webxr scene-viewer quick-look" ios-src="model/earbuds.usdz" camera-controls poster="images/poster.webp" shadow-intensity="1" environment-image="images/aircraft_workshop_01_1k.hdr" exposure="1.7" camera-orbit="52.34deg 88.29deg 874.8m" field-of-view="30deg">
+
+        <!-- in this version, I have manually added, id="hotspot-1, id="hotspot-2", id="hotspot-3", id="hotspot-4"" -->
+  
+        <button class="Hotspot" slot="hotspot-1" data-position="0.07720535321799041m 1.1511293800748787m 0.24922423405868224m" data-normal="0.7901020331753612m 0.6065916653927907m -0.08823450939491406m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation" id="hotspot-1"></div>
+      </button>
+        
+      <button class="Hotspot" slot="hotspot-2" data-position="0.05484496945896367m 1.0088332637045059m 0.5955821690580415m" data-normal="0.7590245496259782m 0.5854348252338653m 0.28486452651826377m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-2"></div>
+    </button>
+        
+    <button class="Hotspot" slot="hotspot-3" data-position="0.1500429660430396m 0.891085558656335m -0.026246100006349082m" data-normal="0.9143582161432972m 0.056928911673713486m -0.400884212194611m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-3"></div>
+    </button>
+        
+    <button class="Hotspot" slot="hotspot-4" data-position="-0.12099843297219298m 0.9896103236322712m -0.1430967826896386m" data-normal="0.017258879443282412m -0.017888939462073847m -0.9996910107254564m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-4"></div>
+    </button>
+        
+    <button class="Hotspot" slot="hotspot-5" data-position="0.07909504228822098m 0.04188748644244855m -0.018730134556213363m" data-normal="0.7096602100659192m -0.041904337537600304m -0.7032968169590494m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation" id="hotspot-5"></div>
+    </button>
+  
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="images/ar_hand_prompt.png">
+        </div>
+      </model-viewer>  
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -125,9 +179,21 @@
     </footer>
 
 
+<!-- Viewer Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+<!-- Viewer Scripts -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slider_xray.js"></script>
+    <script src="js/earbud_ar.js"></script>
+    <!-- <script src="js/animation.js"></script> -->
+
+    <script src="js/scroll_trigger.js"></script>
+
 </body>
 
 </html>
