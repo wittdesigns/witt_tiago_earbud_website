@@ -5,28 +5,28 @@
   const infoBoxes = [
     {
       title: "EarTips",
-      text: "Smooth and comfortable ear tips, coming in different color variations and also transparent",
-      image: "images/path_to_image_example.jpg"
+      text: "Firm, Smooth and comfortable ear tips, coming in different color variations.",
+      image: "images/earbud_eartips.jpg"
     },
     {
-      title: "Rubber Support",
-      text: "It helps to hold the earbud into your ear, giving additional support for extreme movement times, like when you're running, for example",
+      title: "Ears Support",
+      text: "Sofisticated, high quality material, giving you confort along hours of use.",
       image: "images/earbud_rubber.jpg"
     },
     {
       title: "Noise Canceling",
-      text: "Hear only what you intend to hear, walk on sidewalks near the traffic jam and still just hear your favorite music, isolate yourself from inconvenient noise",
-      image: "images/path_to_image_example.jpg"
+      text: "Hear only what you intend to hear, no traffic horns, no constructions noise, just your favorite music.",
+      image: "images/earbud_noise.jpg"
     },
     {
-      title: "Logo",
-      text: "Accept calls, mute the music, simple commands that will make your life easier.",
-      image: "images/path_to_image_example.jpg"
+      title: "Logo Controls",
+      text: "Accept calls, mute audio, simple commands that will make your life easier.",
+      image: "images/earbud_logo.jpg"
     },
     {
       title: "Battery Connector",
       text: "A discrete but efficient connector, fast charging, and long battery duration",
-      image: "images/path_to_image_example.jpg"
+      image: "images/earbud_battery.jpg"
     },
   ];
 

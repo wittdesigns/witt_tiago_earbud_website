@@ -1,17 +1,69 @@
-
-
-$imagesPath :"/images/";
-.hero {
-
-    background: url(#{$imagesPath}/hero_bcg.jpg);
-    opacity: 10%;
-    background-color: #20232F;
-    height: 575px;
-    margin: 0 auto;
-    width: 100%; 
+#burger-nav{
+    padding: 0;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
   }
-
-
-
-
-
+    
+  .hamburger {
+  
+      position: relative;
+      display: block;
+      cursor: pointer;
+        z-index: 100;
+      appearance: none;
+      background: none;
+      outline: none;
+      border: none;
+  }
+  
+  .hamburger img{
+      height: 50px;
+        width: 100%;
+  }
+  
+  
+  .burger_menu {
+      position: fixed;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      min-height: 100vh;
+      display: block;
+      z-index: 98;
+      background-color: blue;
+      padding-top: 120px;
+      transition: 0.4s;
+      list-style-type: none
+  }
+  
+  .burger_menu.is-active {
+      left: 0;
+  }
+  
+  .burger_menu a {
+      display: block;
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto 16px;
+      text-align: center;
+      padding: 12px 16px;
+      background-color: blue;
+  
+      color: #FFF;
+      text-decoration: none;
+  }
+  
+  .burger_menu a:hover {
+      background-color: red;
+  }
+  
+  @media (min-width: 768px) {
+      .burger_menu {
+          display: none;
+      }
+  
+      .hamburger {
+          display: none;
+      }
+  }

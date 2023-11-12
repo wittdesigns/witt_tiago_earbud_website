@@ -22,18 +22,31 @@
             </div>
 
 
-
-
-            <nav id="main-nav" class="col-span-full m-col-start-9">
-                <h2 class="hidden">Main Navigation</h2>
+            <nav id="main-nav" class="col-span-full m-col-start-7">
+                <h2 class="hidden">Main Navigation - Desktop</h2>
                 <button id="button"></button>
                 <div id="burger-con">
                     <ul>
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#">SPECS</a></li>
-                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#earbud-viewer">SPECS</a></li>
+                        <li><a href="#">FEATURES</a></li>                        
+                        <li><a href="#call_to_act">SHOP</a></li>
                     </ul>
                 </div>
+            </nav>
+
+
+            <div class="box col-start-4 col-end-5" id="burger-nav">
+                <h2 class="hidden">Main Navigation - Mobile</h2>
+                <button class="hamburger">
+                    <img src="images/burger_menu.svg" alt="Burger Menu" id="hamb-image">
+                </button>  
+            </div>
+            <nav class="burger_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#earbud-viewer">SPECS</a></li>
+                <li><a href="#">FEATURES</a></li>   
+                <li><a href="#call_to_act">SHOP</a></li>
             </nav>
 
         </header>
@@ -42,42 +55,40 @@
 
 
 
+
+
+
+
     <div class="full-width-grid-con">
         <h2 class="hidden">Scroller Animation - </h2>
         <div class="col-start-2 col-end-3">
             <div class="content">
-                <h1>Cras tincidunt lobortis</h1>
-                <p>
-                SKULLCANDY EARBUDS - SOUND QUALITY
-                </p>
+
                 </div>
         </div>   
 
-     
-        <div class="col-span-full" id="animmodel">
-            <canvas id="explode-view"></canvas> 
-        </div>
 
+
+        
 
         <div class="col-start-2 col-end-3">
             <div class="content">
                 <h1>Cras tincidunt lobortis</h1>
+                <img src="images/candy_hero.jpg" alt="Earbud Xray">
                  <p>
-                Commodo viverra maecenas accumsan lacus. Diam vel quam elementum
-                pulvinar etiam non. Turpis egestas integer eget aliquet nibh. Cras
-                tincidunt lobortis feugiat vivamus at augue. Ornare aenean euismod
-                elementum nisi quis. Aliquet enim tortor at auctor urna nunc id cursus.
-                Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Et
-                odio pellentesque diam volutpat commodo. Euismod nisi porta lorem mollis
-                aliquam ut porttitor leo a. Sollicitudin aliquam ultrices sagittis orci.
-                Netus et malesuada fames ac turpis egestas maecenas pharetra convallis.
-                Facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Leo integer
-                malesuada nunc vel risus commodo. Dapibus ultrices in iaculis nunc sed.
-                Tellus pellentesque eu tincidunt tortor aliquam. Volutpat maecenas
-                volutpat blandit aliquam etiam erat velit scelerisque.
+                    Our Skullcandy Wireless earbuds offers seamless audio freedom and immersive sound experience, ensuring your music follows you wherever life takes you.
                 </p>
             </div>
-        </div>   
+        </div>  
+
+
+     
+        <div class="col-span-full" id="animmodel">
+            <h2 class="hidden">Product Animation</h2>
+            <canvas id="explode-view"></canvas> 
+        </div>
+
+
         
         
 
@@ -113,25 +124,16 @@
     <section class="grid-con" id="battery_info">
         <div id="battery" class="box col-span-full m-col-start-1 m-col-end-13">
             <h2>Battery Information (Duration and Recharge Speed)</h2>
+            <img src="images/earbud_box.png" alt="Earbud Box">
         </div>
+    </section>
 
      
         </div>
      </section>
 
 
-     <section class="grid-con" id="noisered">
-        <div id="earb_noise" class="box col-span-full m-col-start-1 m-col-end-13">
-            <h2>Noise Reduction</h2>
-        </div>
-
-     
-        </div>
-     </section>
-
-
-
-
+ 
     <section  id="earbud-viewer">
         <h2 class="hidden">Model Viewer Earbud</h2>
         
@@ -179,12 +181,7 @@
 
 
 
-    <section class="grid-con " id="call_to_act">
-        <div id="call_toact" class="box col-span-full m-col-start-1 m-col-end-13">
-           <h2>Call to Action</h2>     
-        </div>
-    </section>
-
+ 
     <footer class="grid-con">
         <div id="footer_menu" class="box col-span-full m-col-start-1 m-col-end-13">
             <h2>Footer</h2>
@@ -204,6 +201,7 @@
     <script src="js/animation.js"></script>
     <script src="js/slider_xray.js"></script>
     <script src="js/earbud_ar.js"></script>
+    <script src="js/hamb_menu.js"></script>
 </body>
 
 </html>

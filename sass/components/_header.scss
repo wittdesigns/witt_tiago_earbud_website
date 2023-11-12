@@ -14,7 +14,13 @@
       display: none;
    }
 
-
+   #sticky-nav-con {
+      position:relative;
+      top: 0rem;
+      background-color: ab.$secondary-color;
+      z-index: 1;
+   }
+   
 
  @media screen and (min-width: 768px) {
 
@@ -56,21 +62,21 @@
         margin: 0;
      }
      
+
      #main-nav ul li a {
+      font-size: 1.30rem;
       display: inline;
-        padding: 0.625rem 0 0.625rem 0;
-        text-align: right;
-        color: #626262;
-     }
-
-
+      padding: 0.625rem 0 0.625rem 0;
+      text-align: right;
+      color: #ececec;
+      text-decoration: none;
+  }
      
      #main-nav ul li a:hover {
         color: ab.$primary-color;
      }
      
      #main-nav ul li {
-        border-bottom: 0.0625rem solid #efefef;
         margin-right: 0.625rem;
      }
 
@@ -100,5 +106,15 @@
 
 
     @media screen and (min-width: 1200px) {
+
+
+      #main-nav ul li a {
+         font-size: 1.65rem;
+         display: inline;
+         padding: 0.625rem 0 0.625rem 0;
+         text-align: right;
+         color: #ececec;
+         text-decoration: none;
+     }
  
     }
