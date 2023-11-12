@@ -2,13 +2,10 @@
 
 
 #logo {
-    max-width: 13rem;
-    margin-top: 1.75rem;
+    max-width: 16rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     
-
-
-
  }
 
 
@@ -16,22 +13,22 @@
 
     #logo {
         visibility: visible;
-        max-width: 18rem;
-        width: 15rem;
-        margin-top: 1.75rem;
+        max-width: 22rem;
+        width: 18rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
      }
 
     }
 
 
-    @media screen and (min-width: 1200px) {
+ @media screen and (min-width: 1200px) {
 
         #logo {
             visibility: visible;
             max-width: 25rem;
             width: 22rem;
-            margin-top: 1.75rem;
+            margin-top: 1rem;
             margin-bottom: 1rem;
          }
     
