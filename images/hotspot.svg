@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 38 45" style="enable-background:new 0 0 38 45;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#CACCC8;}
-	.st1{fill:#E89B36;}
-</style>
-<g id="Polygon_7" transform="translate(38) rotate(90)">
-	<path class="st0" d="M32.6,36H12.4L2.3,19L12.4,2h20.2l10.1,17L32.6,36z"/>
-	<path class="st1" d="M13.5,4L4.6,19l8.9,15h17.9l8.9-15L31.5,4H13.5 M11.2,0h22.5L45,19L33.8,38H11.2L0,19L11.2,0z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 246.2">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #06ccb4;
+      }
+
+      .cls-3 {
+        fill: #10c4aa;
+      }
+    </style>
+  </defs>
+  <g id="hotspot">
+    <path id="circlebg" class="cls-1" d="m118,0C52.9,0,0,52.8,0,118c0,52.2,33.9,96.5,80.9,112l4.1-9.5c-43.4-13.9-74.7-54.6-74.7-102.6,0-59.4,48.2-107.7,107.7-107.7s107.7,48.2,107.7,107.7c0,48-31.4,88.7-74.7,102.6l4.1,9.5c47-15.5,80.9-59.8,80.9-112C236,52.8,183.1,0,118,0Z"/>
+    <path id="circlesm" class="cls-3" d="m134.7,182.5l4.1,9.5c32.4-9.1,56.2-38.8,56.2-74.1,0-42.5-34.4-76.9-77-76.9S41.1,75.4,41.1,118c0,35.3,23.8,65,56.2,74.1l4.1-9.5c-28.7-7.4-50-33.5-50-64.6,0-36.8,29.8-66.7,66.7-66.7s66.7,29.8,66.7,66.7c-.1,31-21.4,57.1-50.1,64.5Z"/>
+    <path id="arrow" class="cls-2" d="m87.2,246.2h61.5l-30.7-82.1-30.8,82.1Z"/>
+  </g>
 </svg>
