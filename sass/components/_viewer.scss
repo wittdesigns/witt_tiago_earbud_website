@@ -24,10 +24,13 @@
 
   model-viewer {
     width: auto;
-    max-width: 1200px;
-    height: 700px;
+    max-width: 1170px;
+    height: 650px;
     background-color: #efefef;
     margin: 0 auto;
+    border-radius: 10px; 
+    // margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   // Customize our own hotspot
@@ -69,17 +72,53 @@
     color: #333;
     line-height: 22px;
     font-weight: 300;
+    font-size: 12px;
   }
 
   .HotspotAnnotation h2 {
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 5px;
   }
 
-  model-viewer::part(default-progress-bar) {
-    height: 30px;
-    background-color: #20a6f3;
+//Model Loading Bar
+
+model-viewer::part(default-progress-bar) {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 65px; 
+  height: 65px; 
+  border-radius: 50%;
+  border: 5px solid #06CCB4;
+  border-top: 5px solid transparent;
+  animation: rotate 1.5s linear infinite;
+}
+
+model-viewer::part(default-progress-bar)::before {
+  content: "Loading";
+  display: block;
+  text-align: center;
+  line-height: 100px; /* Adjust as needed */
+  color: #ffffff; /* Text color */
+  font-size: 16px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg) translate(-50%, -50%);
   }
+  to {
+      transform: rotate(360deg) translate(-50%, -50%);
+  }
+}
+
+
+
   
   /* AR Rules */
   
