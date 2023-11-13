@@ -1,19 +1,40 @@
-#battery {
+// #battery {
 
-    background-color: #e8e8e8;
-    height: 550px;
-    margin-top: 0%;
-} 
+//     background-color: #e8e8e8;
+//     height: 400px;
+//     margin-top: 0%;
+// } 
 
+#battery_info{
+    display: none;
+
+}
+
+#battery_info-m{
+    background-color: #C2C2C2;
+}
+
+#battery-m{
+    max-height: 650px;
+}
 
 @media screen and (min-width: 768px) {
 
+    #battery_info-m{
+        display: none;
+    }
+
     #battery {
 
-        background-color: #e8e8e8;
-        height: 550px;
-        margin-top: 0%;
+        // background-color: #e8e8e8;
+        height: 650px;
+        // margin-top: 0%;
     } 
+
+    #battery_info{
+        background-color: #C2C2C2;
+    
+    }
     
 
 }

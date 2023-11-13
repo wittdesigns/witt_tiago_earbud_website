@@ -1,9 +1,7 @@
 #before_after {
-
     background-color: #c7c5c5;
     height: 350px;
     margin-top: 0%;
-    // display: none;
 } 
 
 
@@ -21,7 +19,9 @@
 
 
 #outerShell {
-    display: none;
+    max-width: 1200px;
+    // border: solid 1px #666;
+    display: block;
 }
 
 
@@ -64,6 +64,7 @@
 
     }
     
+
   
     .image-drag {
         height: 40px;
