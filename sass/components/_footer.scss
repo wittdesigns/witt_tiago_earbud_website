@@ -1,21 +1,14 @@
 @use '../abstracts' as a;
 
 
-#aboutme
-{
-    height: 350px;
-}
-
-#contact_about  h2{
-    display: inline-block;
-
-}
-
-#footer_test{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 350px;
-    margin: 0;
+#copyright-text {
+    font-size: 16px;
+    color: #ececec;
+    margin-right: 0.625rem;
     
-  }
+}
+
+
+#footgrid{
+    background-color: #039d6f;
+}

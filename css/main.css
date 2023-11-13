@@ -33,7 +33,8 @@ body {
   }
 }
 #outerShell {
-  display: none;
+  max-width: 1200px;
+  display: block;
 }
 
 @media screen and (min-width: 1200px) {
@@ -78,6 +79,10 @@ body {
     transform: translate(-50%, -50%);
   }
 }
+#modelview {
+  background-color: black;
+}
+
 #prod_configurator {
   background-color: #efeeee;
   height: 350px;
@@ -331,33 +336,37 @@ model-viewer > #ar-prompt > img {
     margin-top: 0%;
   }
 }
-#battery {
-  background-color: #e8e8e8;
-  height: 550px;
-  margin-top: 0%;
+#battery_info {
+  display: none;
+}
+
+#battery_info-m {
+  background-color: #C2C2C2;
+}
+
+#battery-m {
+  max-height: 650px;
 }
 
 @media screen and (min-width: 768px) {
+  #battery_info-m {
+    display: none;
+  }
   #battery {
-    background-color: #e8e8e8;
-    height: 550px;
-    margin-top: 0%;
+    height: 650px;
+  }
+  #battery_info {
+    background-color: #C2C2C2;
   }
 }
-#aboutme {
-  height: 350px;
+#copyright-text {
+  font-size: 16px;
+  color: #ececec;
+  margin-right: 0.625rem;
 }
 
-#contact_about h2 {
-  display: inline-block;
-}
-
-#footer_test {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 350px;
-  margin: 0;
+#footgrid {
+  background-color: #039d6f;
 }
 
 #call_toact {

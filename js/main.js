@@ -1,6 +1,8 @@
 (() => {
 
-    // gsap.fromTo('#battery_info', {
+
+
+    // gsap.fromTo('#adstext1', {
     //     y: 35,
     //     opacity: 0,
     //   },
