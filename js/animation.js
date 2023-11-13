@@ -24,7 +24,7 @@
             scrollTrigger: {
                 trigger: "#explode-view",
                 pin: true,
-                scrub: 0.5,
+                scrub:  0.5,
                 markers: false,
                 start: "top top",
                 end: "+=100%",

@@ -11,6 +11,7 @@ body {
 #explode-view {
   max-width: 100%;
   /* width: 100vw; */
+  height: auto;
 }
 
 #anim01 {
@@ -439,4 +440,6 @@ model-viewer > #ar-prompt > img {
 }
 #hero1 {
   background: radial-gradient(circle, rgb(122, 122, 122), #093020, #042c1a);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
