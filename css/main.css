@@ -13,8 +13,9 @@ body {
   /* width: 100vw; */
 }
 
-#animmodel {
-  margin: 0 auto;
+#anim01 {
+  padding: 0;
+  background-color: transparent;
 }
 
 #before_after {
@@ -435,4 +436,7 @@ model-viewer > #ar-prompt > img {
   .hamburger {
     display: none;
   }
+}
+#hero1 {
+  background: radial-gradient(circle, rgb(122, 122, 122), #093020, #042c1a);
 }/*# sourceMappingURL=main.css.map */
